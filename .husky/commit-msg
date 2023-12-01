@@ -5,6 +5,8 @@ message="$(cat $1)"
 requiredPattern="^(feat|fix|doc|css|pkg|refactor|ci|etc):.*$"
 if ! [[ $message =~ $requiredPattern ]];
 then
+  echo ""
+  echo ""
   echo "=========================================================================="
   echo "======================   🚨 WRONG COMMIT MESSAGE!   ======================"
   echo "=========================================================================="
@@ -15,9 +17,15 @@ then
   echo "== Your commit message was =>" $message 
   echo "== For more information, check script in .husky/commit-msg or README.md =="
   echo "=========================================================================="
+  echo ""
+  echo ""
   exit 1
 else
+  echo ""
+  echo ""
   echo "=========================================================================="
   echo "=======================      COMMIT CREATED!!      ======================="
   echo "=========================================================================="
+  echo ""
+  echo ""
 fi
