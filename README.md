@@ -28,8 +28,8 @@
 
 ## Tech Spec
 
-- FrontEnd: Next(v13), React(v18), Emotion, StoryBook
+- FrontEnd: Next(v13.5.6), React(v18.2.0), Emotion
 - BackEnd:
 - DB:
 - CI/CD:
-- etc: Bun, Husky
+- etc: Bun(v1.0.14), Husky
