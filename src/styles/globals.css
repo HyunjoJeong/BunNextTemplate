@@ -97,7 +97,7 @@
 
 body {
   overflow-x: hidden;
-  color: #131e39;
+  color: var(--neutral-dark);
   background: #fff;
 }
 
