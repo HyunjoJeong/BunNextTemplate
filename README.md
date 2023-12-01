@@ -1,38 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Introduction
 
-## Getting Started
+- 소소하지만 유용한, "소용"은
+- 이름 그대로 일상에서 자주 쓰이는 기능들을 한 군데로 모은 종합 도우미 웹 앱입니다.
 
-First, run the development server:
+## Conventions
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+#### Coding Convention
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `변수`: camelCase
+- `클래스`: PascalCase
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+#### Commit Message Convention
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- `feat`: 새로운 기능 추가 및 변화된 요구사항에 따른 기존 기능 수정
+- `fix`: 버그로 인한 코드 수정
+- `doc`: 문서 및 주석 수정 (eg. README)
+- `css`: css 작업
+- `pkg`: package.json 변경
+- `refactor`: 코드 리팩터링 (eg. 네이밍 변경 및 줄바꿈 등 기능과 상관없는 코드 수정)
+- `ci`: CI/CD 관련 설정 수정
+- `etc`: 이외 기타 사항 (상세히 기술)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Tips
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- commit message 변경: '.husky/commit-msg'에서,, 'README' 파일도 업데이트 할 것.
+- src 아래에 폴더 추가시: 'tsconfig.json' 에서도 path 추가 할 것.
 
-## Learn More
+## Tech Spec
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- FrontEnd: Next(v13), React(v18), Emotion, StoryBook
+- BackEnd:
+- DB:
+- CI/CD:
+- etc: Bun, Husky
