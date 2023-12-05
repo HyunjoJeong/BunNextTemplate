@@ -1,7 +1,6 @@
 ## Project Introduction
 
-- 소소하지만 유용한, "소용"은
-- 이름 그대로 일상에서 자주 쓰이는 기능들을 한 군데로 모은 종합 도우미 웹 앱입니다.
+- Bun과 Nextjs를 사용하는 프로젝트 템플릿입니다.
 
 ## Conventions
 
@@ -23,13 +22,14 @@
 
 ## Tips
 
+- bun 설치: `npm i -g bun`, 홈페이지 참고: [bun.sh](https://bun.sh/)
 - commit message 변경: '.husky/commit-msg'에서,, 'README' 파일도 업데이트 할 것.
 - src 아래에 폴더 추가시: 'tsconfig.json' 에서도 path 추가 할 것.
 
 ## Tech Spec
 
-- FrontEnd: Next(v13.5.6), React(v18.2.0), Emotion
-- BackEnd:
-- DB:
-- CI/CD:
-- etc: Bun(v1.0.14), Husky
+- Bun
+- Next(v13.5.6)
+- React(v18.2.0)
+- Husky(v8.0.2)
+- Emotion
